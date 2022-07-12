@@ -4,6 +4,7 @@ export const enMessages = {
         "teamMembers": "Team Members",
         "dashboard": "Dashboard",
         "planning": "Planning",
+        "dispatch": "Dispatch",
         "profile": "Profile",
         "info": "Info",
         "language": "Language",

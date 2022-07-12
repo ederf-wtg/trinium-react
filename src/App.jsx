@@ -5,6 +5,7 @@ import Dashboard from './pages/Dashboard.jsx';
 import Planning from './pages/Planning.jsx';
 import Profile from './pages/Profile.jsx';
 import Info from './pages/Info.jsx';
+import Dispatch from './pages/Dispatch.jsx';
 import DrawerRouterContainer from './components/DrawerRouterContainer.jsx';
 import { AppContext } from './AppContext';
 import { countries } from './resources/countries';
@@ -96,6 +97,7 @@ const App = () => {
                                     <Route exact={true} path="/planning" component={Planning} />
                                     <Route exact={true} path="/profile" component={Profile} />
                                     <Route exact={true} path="/info" component={Info} />
+                                    <Route exact={true} path="/dispatch" component={Dispatch} />
                                 </Switch>
                             </DrawerRouterContainer>
                         </HashRouter>

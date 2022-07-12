@@ -10,6 +10,7 @@ import { Header } from './Header.jsx';
 const items = [
     { name: 'dashboard', icon: 'k-i-grid', selected: true , route: '/' },
     { name: 'planning', icon: 'k-i-calendar', route: '/planning' },
+    { name: 'dispatch', icon: 'k-i-link', route: '/dispatch' },
     { name: 'profile', icon: 'k-i-user', route: '/profile' },
     { separator: true },
     { name: 'info', icon: 'k-i-information', route: '/info' }
